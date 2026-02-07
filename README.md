@@ -8,4 +8,4 @@
 
 - Feature Engineering: Implementation of goal differences and rolling averages of Home and Away teams.
 
-- Predictive Modeling: Logistic Regression calibrated for match-day probabilities.
+- Predictive Modeling: Random Forest Regression, XGBoost, and LightGBM calibrated for match-day probabilities.
