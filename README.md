@@ -9,3 +9,11 @@
 - Feature Engineering: Implementation of goal differences and rolling averages of Home and Away teams, expected goals, and rolling average of shot accuracy.
 
 - Predictive Modeling: XGBoost, Random Forest and LightGBM calibrated for match-day probabilities.
+
+# What is XGBoost
+- XGBoost (eXtreme Gradient Boosting) is an advanced machine learning algorithm designed for efficiency, speed, and high performance.
+- An optimized implementation of Gradient Boosting and is a type of ensemble learning method that combines multiple weak models to form a stronger one.
+
+# What is LightGBM
+- LightGBM (Light Gradient Boosting Machine) is an open-source, high-performance gradient boosting framework developed by Microsoft, specialized for fast, efficient, and distributed machine learning.
+- Using tree-based algorithms with leaf-wise growth, it offers faster training, lower memory usage, and better accuracy for classification and regression tasks.
