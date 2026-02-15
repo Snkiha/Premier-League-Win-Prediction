@@ -9,7 +9,7 @@ with open("feature_columns.pkl", "rb") as f:
     feature_cols = joblib.load(f)
 
 st.set_page_config(page_title = "Football Match Predictor", layout = "wide")
-st.title("Football Match Predictor")
+st.title("Football Match Predictor (Data is currently trained over 2022-2023 seasons)")
 st.write("Predicts probability of Home Team Winning")
 
 st.divider()
