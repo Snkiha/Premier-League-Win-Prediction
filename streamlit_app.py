@@ -1,7 +1,6 @@
 import joblib
 import numpy as np
 import pandas as pd
-import sklearn
 import streamlit as st
 
 model = joblib.load("full_pipeline.pkl")
