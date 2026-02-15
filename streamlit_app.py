@@ -50,7 +50,7 @@ if st.button("Predict"):
     input_df = pd.DataFrame([input_dict])
         
     # Reindex to match training columns
-    # input_df = input_df.reindex(columns=feature_cols, fill_value=0)
+    input_df = input_df.reindex(columns=feature_cols, fill_value=0)
     prob = model.predict_proba(input_df)[:, 1][0]
     
     st.subheader("Prediction Results")
