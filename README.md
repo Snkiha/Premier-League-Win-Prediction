@@ -17,3 +17,6 @@
 # What is LightGBM
 - LightGBM (Light Gradient Boosting Machine) is an open-source, high-performance gradient boosting framework developed by Microsoft, specialized for fast, efficient, and distributed machine learning.
 - Using tree-based algorithms with leaf-wise growth, it offers faster training, lower memory usage, and better accuracy for classification and regression tasks.
+
+# Model Drifiting
+- Model originally trained on 2022-2023 data; currently performing an 'Out-of-Time' validation against 2025-2026 results to measure performance decay.
