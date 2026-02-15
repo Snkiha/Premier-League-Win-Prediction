@@ -48,13 +48,9 @@ if st.button("Predict"):
         "away_rolling_avg_xG": away_rolling_avg_xG
     }
     input_df = pd.DataFrame([input_dict])
-    
-    for col in ["home_team", "away_team"]:
-        if col in input_df.columns:
-            input_df[col] = input_df[col].astype('category')
         
     # Reindex to match training columns
-    input_df = input_df.reindex(columns=feature_cols, fill_value=0)
+    # input_df = input_df.reindex(columns=feature_cols, fill_value=0)
     prob = model.predict_proba(input_df)[:, 1][0]
     
     st.subheader("Prediction Results")
