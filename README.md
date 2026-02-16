@@ -1,5 +1,7 @@
 # Premier League Win Predictor
 - A machine learning project that uses the LightBGM, XGBoost, and Random Forest Classifier to predict the outcome of English Premier League matches (2022-2023). By analyzing historical match data and team form, this model estimates the probability of a home win, away win, or draw between both teams.
+- Link to streamlit interactive web app: premier-league-win-prediction-7kmbpuxrbukwbfsru4hjc5
+.streamlit.app
 
 # Project Overview
 - Predicting football results is notoriously difficult due to the "any given Sunday" nature of the sport. This project applies a binary and the aforementioned classifiers framework to quantify the influence of home advantage, recent form, and team strength on the final whistle.
